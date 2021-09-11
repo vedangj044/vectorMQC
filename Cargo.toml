@@ -1,0 +1,4 @@
+[package]
+name = "vectormq_client"
+version = "0.0.1"
+authors = ["vedanj044"]
