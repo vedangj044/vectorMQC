@@ -2,3 +2,7 @@
 name = "vectormq_client"
 version = "0.0.1"
 authors = ["vedanj044"]
+
+[dependencies]
+
+qp2p = { version = "0.20.0" }
