@@ -5,4 +5,5 @@ authors = ["vedanj044"]
 
 [dependencies]
 
-qp2p = { version = "0.20.0" }
+qp2p = "0.17.3"
+anyhow = "1.0.44"
