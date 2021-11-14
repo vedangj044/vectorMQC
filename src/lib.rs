@@ -27,7 +27,7 @@ impl Vmq {
                 SocketAddr::from((Ipv4Addr::LOCALHOST, 0)),
                 &[],
                 Config {
-                    idle_timeout: Duration::from_secs(60).into(),
+                    idle_timeout: Duration::from_secs(60 * 5).into(),
                     ..Default::default()
                 },
             )
